@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style_informations.css">
+    <title>Informations</title>
+</head>
+<body>
+
+    <header>
+        <div class="site">
+            <input type="checkbox" class="togglerSidebar" id="togglerSidebar">  
+            <span class="sidebar">   
+                <span class="navList">
+                    <ul>
+                        <li><a class="navBarMenu" id="mainpage" href="index.html"><span>Accueil</span></a></li>
+                        <li><a class="navBarMenu" id="informations" href="#"><span>Informations</span></a></li>
+                        <li><a class="navBarMenu" id="reservation" href="#"><span>Réservation</span></a></li>
+                    </ul>
+                    <span class="burgerMenu"></span>
+                </span>
+            </span>
+        </div>
+    </header>
+    
+
+    <main>
+        <div class="infobar">
+            <span class="infobarContent" id="test"><a href="#" id="myBtn">Se connecter</a></span>
+            <span class="infobarContent">| </span>
+            <span class="infobarContent">Contact </span>
+            <span> |</span>
+            <span><img src="assets/img/facebook2.png" alt="logo" id="logoFB"></span>
+            <span><img src="assets/img/twitter.png" alt="logoTwitter" id="logoTwitter"></span>
+        </div>
+        <!-- here's a main in case you want to use a header or a side part for the  -->
+        <!-- for each 3 parts, I put a colored text bit and a pictogram bit next to eachother inside a flex container div -->
+        <div class="part">
+            <div class="colored-bit" id="security">
+                
+                <div class="oui">
+                    <h3>Sécurité</h3>
+                    <p>Un PAPS (Point d’alerte et de premiers secours) sera installé, 
+                        il sera composé de deux secouristes avec matériel de secours pouvant intervenir immédiatement
+                        et disposant d’une ligne directe avec les secours publics.
+                        <br><br>
+                        Une société de sécurité privée nous accompagnera en amont et pendant l’événement. 
+                        Cette entreprise peut couvrir tous les aspects de la sécurité de l'événement tels que la sécurité,
+                        l’incendie, le secours à personnes, ou encore la sûreté pour 
+                        lutter contre les actes malveillants et le terrorisme.</p>
+                </div>
+
+            </div>
+            <div class="picto-bit">
+                <img src="assets/img/security.png" alt="">
+            </div>
+        </div>
+
+        <div class="part">
+            <div class="picto-bit">
+                <img src="assets/img/health.png"alt="">
+            </div>
+            <div class="colored-bit" id="mesures">
+            <!-- <div> -->
+                <h3>Les mesures prises pour vous accueillir</h3>
+                <p>
+                Afin de limiter la propagation du COVID-19, nous avons mis en place certains protocoles supplémentaires :
+                <br>
+                Nous avons augmenté la fréquence de désinfection des zones et objets communs à plusieurs fois par jour.
+                <br> 
+                Nous respectons les règles sanitaires gouvernementales et vous demandons d'en faire de même. 
+                </p>
+            <!-- </div> -->
+                <div class="ruleboard">
+                    <div class="rules">
+                        <img src="assets/img/wearMask.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/washHands.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/distance.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/coughElbow.png" alt="" class="pictograms">
+                    </div>
+                </div>
+                <div class="ruleboard">
+                    <div class="rules">
+                        <img src="assets/img/noHandSHake.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/useApp.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/disposableTissues.png" alt="" class="pictograms">
+                    </div>
+                    <div class="rules">
+                        <img src="assets/img/noTouchyFacy.png" alt="" class="pictograms">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="part">
+            <div class="colored-bit" id="map">
+                <div id="adresse"> 
+                    <h3>Plan d'accés</h3>
+                    <p id="adresse2">
+                        70 rue des jacobins
+                        <br>
+                        80000
+                        <br>
+                        Amiens 
+                        <br><br>
+                        8h-19h
+                    </p>
+                </div>
+                <div class="plan">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.4684054689255!2d2.2992870163147336!3d49.890008835467675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1639913428469!5m2!1sfr!2sfr" ;
+                        allowfullscreen="" 
+                        loading="lazy"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="picto-bit">
+                <img src="assets/img/localisation.png" alt="">
+            </div>
+        </div>
+        <div class="part" id="exposant1">
+            <div class="picto-bit" id="marche">
+                <img src="assets/img/marche.png">
+            </div>
+            <div class="colored-bit" id="exposants">
+                <div id="textefin">
+                    <h3>Espace exposant</h3>
+                    <h2>Horaire d'arrivée et accueil des exposants :</h2>
+                    <p>Les exposants pourront arriver dès 6h30 à la bourse pour la mise en place des stands.</p>
+
+                        <p>Pensez à vous munir du numéro d'emplacement reçu par mail suite à l'inscription via notre formulaire.
+                        <br> <br>
+                        </p>
+                        <h2>Covid :</h2>
+                        <p>Les exposants devront se munir d'un test PCR négatif de moins de 48h ou de leur pass sanitaire.
+                        <br>
+                        Du gel hydroalcoolique et des masques seront mis à votre disposition.
+                        <br><br>
+                        </p> 
+                        <h2>CGU : </h2>
+                        <a href="assets/img/CGU.pdf" download="CGU.pdf" target="_blank">
+                            <button class="bouton"> Télécharger les CGU</button>
+                        </a>
+                </div>
+            </div>
+        </div>
+        
+
+
+   <!-- la Modal -->
+   <div id="myModal" class="modal">
+
+    <!-- Contenu de la Modal-->
+    <div class="modal-content" id="modalFull">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Connectez vous </h2>
+
+        </div>
+        <div class="modal-body">
+            <p>
+                <label class="username"></label>
+                <input class="username" type="email" placeholder="Votre mail" name="username" required>
+            </p>
+            <p>
+                <label class="pwd"></label>
+                <input class="pwd" type="password" placeholder="Votre Mot de passe" name="pwd" required>
+            </p>
+            <p>
+                <button class="login"><span>Login</span></button>
+            </p>
+
+            <p class="footerText" id="footerInfo">S'inscrire <span>-</span> Mot de passe oublié</p>
+        </div>
+        <div class="modal-footer">
+            <h3>Footer</h3>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Modal inscription -->
+        <div class="modal2" id="modal2">
+            <div class="register">
+    
+                <div class="registerHeader">
+    
+                    <span class="infoRegister">Vos coordonnées</span>
+                    <img src="assets/img/pngegg.png" alt="formulaire" class="imgRegister">
+                </div>
+    
+    
+                <div class="registerBody">
+    
+                    <label for="name1">
+                        <input type="text" class="input-name1" id="name1" name="name1" placeholder="Prénom" required><br>
+                    </label>
+                    <label for="lastname1">
+                        <input type="text" class="input-lastname1" id="lastname1" name="lastname1" placeholder="Nom" required><br>
+                    </label>
+                    <label for="mail1">
+                        <input type="email" class="input-mail1" id="mail1" name="mail1" placeholder="Mail@domaine.com" required><br>
+                    </label>
+                    <label for="phoneNum">
+                        <input type="number" class="input-phoneNum" id="phoneNum" name="phoneNum" placeholder="Numéro" required><br>
+                    </label>
+                    <label for="business">
+                        <input type="text" class="input-business" id="business" name="business"
+                            placeholder="Entreprise (facultatif)"><br>
+                    </label>
+                </div>
+                <div class="bottomText">Veuillez choisir un emplacement de Parking:</div>
+                <div class="parent2">
+    
+                    <input type="radio" class="box" id="box1" name="boxchecked">
+                    <label for="box1" class="box"></label>
+    
+                    <input type="radio" class="box" id="box2" name="boxchecked">
+                    <label for="box2" class="box"></label>
+    
+                    <input type="radio" class="box" id="box3" name="boxchecked">
+                    <label for="box3" class="box"></label>
+    
+                    <input type="radio" class="box" id="box4" name="boxchecked">
+                    <label for="box4" class="box"></label>
+    
+                    <input type="radio" class="box" id="box5" name="boxchecked">
+                    <label for="box5" class="box"></label>
+    
+                    <input type="radio" class="box" id="box6" name="boxchecked">
+                    <label for="box6" class="box"></label>
+    
+                    <input type="radio" class="box" id="box7" name="boxchecked">
+                    <label for="box7" class="box"></label>
+    
+                    <input type="radio" class="box" id="box8" name="boxchecked">
+                    <label for="box8" class="box"></label>
+    
+                    <input type="radio" class="box" id="box9" name="boxchecked">
+                    <label for="box9" class="box"></label>
+    
+                    <input type="radio" class="box" id="box10" name="boxchecked">
+                    <label for="box10" class="box"></label>
+    
+                    <input type="radio" class="box" id="box11" name="boxchecked">
+                    <label for="box11" class="box"></label>
+    
+                    <input type="radio" class="box" id="box12" name="boxchecked">
+                    <label for="box12" class="box"></label>
+    
+                    <input type="radio" class="box" id="box13" name="boxchecked">
+                    <label for="box13" class="box"></label>
+    
+                    <input type="radio" class="box" id="box14" name="boxchecked">
+                    <label for="box14" class="box"></label>
+    
+                    <input type="radio" class="box" id="box15" name="boxchecked">
+                    <label for="box15" class="box"></label>
+    
+                    <input type="radio" class="box" id="box16" name="boxchecked">
+                    <label for="box16" class="box"></label>
+    
+                    <input type="radio" class="box" id="box17" name="boxchecked">
+                    <label for="box17" class="box"></label>
+    
+                    <input type="radio" class="box" id="box18" name="boxchecked">
+                    <label for="box18" class="box"></label>
+    
+                    <input type="radio" class="box" id="box19" name="boxchecked">
+                    <label for="box19" class="box"></label>
+    
+                    <input type="radio" class="box" id="box20" name="boxchecked">
+                    <label for="box20" class="box"></label>
+                </div>
+    
+                <button type="submit" id="submit" name="submit" class="btn btn-dark"><span>Réserver</span></button>
+    
+                <div class="registerFooter">
+    
+                </div>
+            </div>
+        </div>
+    
+    
+<script type="text/javascript" src="assets/js/script_informations.js"></script>
+</main>
+</body>
+</html>
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="assets/css/style_accueil.css">
+</head>
+
+<body>
+    <header>
+        <div class="site">
+            <input type="checkbox" class="togglerSidebar" id="togglerSidebar">
+            <span class="sidebar">
+                <div class="navList">
+                    <ul>
+                        <li><a class="navBarMenu" id="mainpage" href="#"><span>Accueil</span></a></li>
+                        <li><a class="navBarMenu" id="informations" href="index_informations.html"><span>Informations</span></a></li>
+                        <li><a class="navBarMenu" id="reservation" href="#"><span>Réservation</span></a></li>
+                    </ul>
+                    <span class="burgerMenu"></span>
+                </div>
+            </span>
+        </div>
+    </header>
+
+    <div class="container0">
+        <div class="container1">
+            <div class="item" id="div1">
+                <div class="infobar">
+                    <span class="infobarContent" id="test"><a href="#" id="myBtn">Se connecter</a></span>
+                    <span class="infobarContent">| </span>
+                    <span class="infobarContent">Contact </span>
+                    <span> |</span>
+                    <span><img src="assets/img/facebook2.png" alt="logo" id="logoFB"></span>
+                    <span><img src="assets/img/twitter.png" alt="logoTwitter" id="logoTwitter"></span>
+                </div>
+                <img src="assets/img/logo.png" alt="Logo" id="logo1">
+                <div class="text" id="infos">
+                    <p>8h-19h <br> 70 rue des jacobins <br> 28 janvier 2022</p>
+                </div>
+            </div>
+            <div class="item" id="manu">
+                <img src="assets/img/formation_professionnelle_campus_amiens.jpg" alt="amiens" id="manu1">
+            </div>
+        </div>
+        <div class="container2">
+            <div class="item2" id="pngs">
+                <div class="item1">
+                    <img src="assets/img/pc-g949b08f54_1920.png" alt="pc" id="pc1">
+                </div>
+                <div class="item1">
+                    <img src="assets/img/console.png" alt="console" id="console1">
+                </div>
+                <div class="item1">
+                    <img src="assets/img/pngwing.png" alt="tel" id="tel1">
+                </div>
+            </div>
+            <div class="item2 text" id="long">
+                <p id="titre">Grande Bourse au High-Tech</p>
+                <p id="paragraphe">Venez vendre vos matériels High-tech en plein cœur d'Amiens. <br>
+                    Ordinateurs , téléphones , consoles , appareil photo et bien d'autres : une large gamme <br>
+                    numérique au sein de cette ancienne manufacture. <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- la Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Contenu de la Modal-->
+        <div class="modal-content" id="modalFull">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Connectez vous </h2>
+
+            </div>
+            <div class="modal-body">
+                <p>
+                    <label class="username"></label>
+                    <input class="username" type="email" placeholder="Votre mail" name="username" required>
+                </p>
+                <p>
+                    <label class="pwd"></label>
+                    <input class="pwd" type="password" placeholder="Votre Mot de passe" name="pwd" required>
+                </p>
+                <p>
+                    <button class="login"><span>Login</span></button>
+                </p>
+
+                <p class="footerText">S'inscrire <span>-</span> Mot de passe oublié</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Footer</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal inscription -->
+    <div class="modal2" id="modal2">
+        <div class="register">
+
+            <div class="registerHeader">
+
+                <span class="infoRegister">Vos coordonnées</span>
+                <img src="assets/img/pngegg.png" alt="formulaire" class="imgRegister">
+            </div>
+
+
+            <div class="registerBody">
+
+                <label for="name1">
+                    <input type="text" class="input-name1" id="name1" name="name1" placeholder="Prénom" required><br>
+                </label>
+                <label for="lastname1">
+                    <input type="text" class="input-lastname1" id="lastname1" name="lastname1" placeholder="Nom" required><br>
+                </label>
+                <label for="mail1">
+                    <input type="email" class="input-mail1" id="mail1" name="mail1" placeholder="Mail@domaine.com" required><br>
+                </label>
+                <label for="phoneNum">
+                    <input type="number" class="input-phoneNum" id="phoneNum" name="phoneNum" placeholder="Numéro" required><br>
+                </label>
+                <label for="business">
+                    <input type="text" class="input-business" id="business" name="business"
+                        placeholder="Entreprise (facultatif)"><br>
+                </label>
+            </div>
+            <div class="bottomText">Veuillez choisir un emplacement de Parking:</div>
+            <div class="parent2">
+
+                <input type="radio" class="box" id="box1" name="boxchecked">
+                <label for="box1" class="box"></label>
+
+                <input type="radio" class="box" id="box2" name="boxchecked">
+                <label for="box2" class="box"></label>
+
+                <input type="radio" class="box" id="box3" name="boxchecked">
+                <label for="box3" class="box"></label>
+
+                <input type="radio" class="box" id="box4" name="boxchecked">
+                <label for="box4" class="box"></label>
+
+                <input type="radio" class="box" id="box5" name="boxchecked">
+                <label for="box5" class="box"></label>
+
+                <input type="radio" class="box" id="box6" name="boxchecked">
+                <label for="box6" class="box"></label>
+
+                <input type="radio" class="box" id="box7" name="boxchecked">
+                <label for="box7" class="box"></label>
+
+                <input type="radio" class="box" id="box8" name="boxchecked">
+                <label for="box8" class="box"></label>
+
+                <input type="radio" class="box" id="box9" name="boxchecked">
+                <label for="box9" class="box"></label>
+
+                <input type="radio" class="box" id="box10" name="boxchecked">
+                <label for="box10" class="box"></label>
+
+                <input type="radio" class="box" id="box11" name="boxchecked">
+                <label for="box11" class="box"></label>
+
+                <input type="radio" class="box" id="box12" name="boxchecked">
+                <label for="box12" class="box"></label>
+
+                <input type="radio" class="box" id="box13" name="boxchecked">
+                <label for="box13" class="box"></label>
+
+                <input type="radio" class="box" id="box14" name="boxchecked">
+                <label for="box14" class="box"></label>
+
+                <input type="radio" class="box" id="box15" name="boxchecked">
+                <label for="box15" class="box"></label>
+
+                <input type="radio" class="box" id="box16" name="boxchecked">
+                <label for="box16" class="box"></label>
+
+                <input type="radio" class="box" id="box17" name="boxchecked">
+                <label for="box17" class="box"></label>
+
+                <input type="radio" class="box" id="box18" name="boxchecked">
+                <label for="box18" class="box"></label>
+
+                <input type="radio" class="box" id="box19" name="boxchecked">
+                <label for="box19" class="box"></label>
+
+                <input type="radio" class="box" id="box20" name="boxchecked">
+                <label for="box20" class="box"></label>
+            </div>
+
+            <button type="submit" id="submit" name="submit" class="btn btn-dark"><span>Réserver</span></button>
+
+            <div class="registerFooter">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
